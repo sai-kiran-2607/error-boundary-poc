@@ -38,8 +38,6 @@ The API endpoint is intentionally broken to trigger a UI crash caught by the Err
 ### Error State (Simulated Crash)
 If the API URL is intentionally modified to an invalid endpoint:
 ```js
-// Example incorrect API URL used for testing
-//const API_URL = "https://jsonplaceholder.typicode.com/postssss";
 *************************************************************************
 Outputs before and after Crashes:
 Working App:
