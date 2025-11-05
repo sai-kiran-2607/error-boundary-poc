@@ -28,17 +28,6 @@ The API endpoint is intentionally broken to trigger a UI crash caught by the Err
 
 ---
 
-## How the Error Boundary Works
-
-### Normal Operation
-1. User navigates to the **Posts** page.
-2. The component fetches and displays post data from the API.
-3. UI renders successfully.
-
-### Error State (Simulated Crash)
-If the API URL is intentionally modified to an invalid endpoint:
-```js
-*************************************************************************
 Outputs before and after Crashes:
 Working App:
 <img width="1919" height="877" alt="image" src="https://github.com/user-attachments/assets/4ddda5a5-32e1-47c6-bde3-24bea8df23e8" />
