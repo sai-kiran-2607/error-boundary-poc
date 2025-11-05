@@ -10,11 +10,13 @@ This project demonstrates practical usage of **React Error Boundaries** to grace
 | Normal Functioning Application |
 
 https://error-boundary-before-crash.netlify.app/
+
 The application fetches valid API data and renders without errors. 
 
 | Application After Forced Crash| 
 
 https://error-boundary-after-crash.netlify.app/
+
 The API endpoint is intentionally broken to trigger a UI crash caught by the Error Boundary. |
 
 ---
@@ -27,9 +29,7 @@ The API endpoint is intentionally broken to trigger a UI crash caught by the Err
 - Real-world API integration:
    https://jsonplaceholder.typicode.com/posts
 
-  - Error detection and fallback UI using a custom **Error Boundary**
-
----
+  
 
 Outputs before and after Crashes:
 
