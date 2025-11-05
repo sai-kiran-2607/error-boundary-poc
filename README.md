@@ -29,6 +29,7 @@ The API endpoint is intentionally broken to trigger a UI crash caught by the Err
 ---
 
 Outputs before and after Crashes:
+
 Working App:
 <img width="1919" height="877" alt="image" src="https://github.com/user-attachments/assets/4ddda5a5-32e1-47c6-bde3-24bea8df23e8" />
 Fall Back Ui after Crash:
