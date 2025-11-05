@@ -39,8 +39,8 @@ The API endpoint is intentionally broken to trigger a UI crash caught by the Err
 If the API URL is intentionally modified to an invalid endpoint:
 ```js
 // Example incorrect API URL used for testing
-const API_URL = "https://jsonplaceholder.typicode.com/postssss";
-
+//const API_URL = "https://jsonplaceholder.typicode.com/postssss";
+*************************************************************************
 Outputs before and after Crashes:
 Working App:
 <img width="1919" height="877" alt="image" src="https://github.com/user-attachments/assets/4ddda5a5-32e1-47c6-bde3-24bea8df23e8" />
